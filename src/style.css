@@ -3,7 +3,64 @@ body
     background-color: rgb(139, 115, 186);
 }
 
+.clock-container
+{
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: rgb(210, 186, 231);
+    padding: 40px;
+    box-shadow: 5px 5px 5px rebeccapurple;
+    border-radius: 10px;
+}
+.cities
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    padding: 30px 0;
+    border-bottom: 0.5px dashed rgb(162, 157, 157);
+}
+
+.cities:last-child
+{
+    border: none;
+}
+
+.time
+{
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.date 
+{
+    opacity: 0.6;
+}
+
+h2
+{
+    margin: 0 0 5px;
+    font-size: 25px;
+    
+}
+select
+{
+    display: block;
+    width: 60%;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 15px;
+    text-align: center;
+    
+}
+h1
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
 footer
 {
+    padding: 20px;
     text-align: center;
 }
